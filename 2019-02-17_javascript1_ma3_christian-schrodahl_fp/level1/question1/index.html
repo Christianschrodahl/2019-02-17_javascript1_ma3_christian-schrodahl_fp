@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+    </head>
+<body>
+
+<!--Contact Form-->
+        <form novalidate>
+            <section>
+                <label for="first_name">First Name:</label>
+                    <input type="text" id="name" pattern="^[a-zA-Z ]+$" name="First Name">
+                <label for="last_name">Last Name:</label>
+                    <input type="text" id="name" pattern="^[a-zA-Z ]+$" name="Last Name">
+                <label for="age">Age:</label>
+                    <input type="number" id="age" pattern="\d{1,3}" name="Age">
+                <label for="tel">Telephone:</label>
+                    <input type="tel" id="tel" pattern="\d{9,12}" name="Telephone number">
+                <label for="email">Email:</label>
+                    <input type="email" id="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" name="Email address">
+            </section>
+            <button type="button" id="submit">Send</button>
+        </form>
+
+<script src="script.js"></script>
+</body>
+</html>
